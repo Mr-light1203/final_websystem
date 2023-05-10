@@ -1,0 +1,53 @@
+@font-face {
+    font-family: MemphisRiver;
+    src: url(../font/MemphisRiver-eZ43n.ttf);
+}
+
+.nav-item{
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 300px;
+}
+.navbar-brand{
+    font-family: MemphisRiver;
+    font-size: 50px;
+    font-weight: bold;
+}
+.logo-img{
+    margin-top: -4px;
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.carousel-caption{
+    margin-top: 100px;
+}
+@media only screen and (min-width: 992px) {
+.c-item{
+    height: 800px;
+}
+.carousel-caption{
+    margin-top: 250px;
+}
+}
+.featured-heading{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 0.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
