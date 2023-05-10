@@ -2,15 +2,17 @@
     font-family: MemphisRiver;
     src: url(../font/MemphisRiver-eZ43n.ttf);
 }
-
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 .nav-item{
     font-size: 25px;
     font-weight: bold;
-    font-weight: 300px;
 }
 .navbar-brand{
     font-family: MemphisRiver;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 .logo-img{
