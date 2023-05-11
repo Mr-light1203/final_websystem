@@ -5,6 +5,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 .nav-item{
     font-size: 25px;
@@ -68,4 +69,4 @@
 .accordion-button:not(.collapsed) {
     background-color:  #ffc1cc;
     color: black;
-  }
+}
