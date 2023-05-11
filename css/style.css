@@ -58,3 +58,14 @@
     width: 350px;
     object-fit: cover;
 }
+.accordion-button:focus,
+.accordion-button:active,
+.accordion-header:focus,
+.accordion-header:active {
+  background-color: #ffc1cc;
+  color: black;
+}
+.accordion-button:not(.collapsed) {
+    background-color:  #ffc1cc;
+    color: black;
+  }
