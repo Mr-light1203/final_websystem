@@ -74,3 +74,47 @@
     height: 50px;
     width: 50px;
 }
+.table th{
+font-size: 14px;
+}
+#target{
+    font-size: 14px;
+}
+#target-cell{
+padding-top: 20px;
+font-size: 13px;
+}
+@media only screen and (min-width: 768px) {
+    .cart-img{
+        height: 75px;
+        width: 75px;
+    }
+    .table th{
+        font-size: 16px;
+    }
+    #target{
+        font-size: 15px;
+    }
+    #target-cell{
+        padding-top: 35px;
+        font-size: 15px;
+        }
+    
+}
+@media only screen and (min-width: 992px) {
+    .cart-img{
+        height: 110px;
+        width: 110px;
+    }
+    .table th{
+        font-size: 20px;
+    }
+    #target{
+        font-size: 19px;
+    }
+    #target-cell{
+        padding-top: 50px;
+        font-size: 18px;
+        }
+    
+}
