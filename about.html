@@ -137,6 +137,143 @@
         </div>
       </div>
     </div>
+    <div class="position-fixed end-0 bottom-0 p-3" style="z-index: 11">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#loginModal"
+      >
+        <i class="bi bi-person-fill"></i> Login
+      </button>
+    </div>
+
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Enter username"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Sign in
+              </button>
+            </form>
+
+            <div class="text-center mt-3">
+              Don't have an account?
+              <a
+                href="#"
+                data-bs-dismiss="modal"
+                data-bs-toggle="modal"
+                data-bs-target="#signupModal"
+                >Sign up now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="signupUsername" class="form-label">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="signupUsername"
+                  placeholder="Enter username"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="signupPassword" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signupPassword"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="signupPassword" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signupPassword"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Sign up
+              </button>
+            </form>
+
+            <div class="text-center mt-3">
+              Already have an account?
+              <a
+                href="#"
+                data-bs-dismiss="modal"
+                data-bs-toggle="modal"
+                data-bs-target="#loginModal"
+                >Log in</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="bg-dark text-white pt-5 pb-4 mt-5">
       <div class="container text-md-left">
         <div class="row text-md-left">
