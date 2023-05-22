@@ -7,6 +7,9 @@
   box-sizing: border-box;
   padding: 0;
 }
+.body{
+  background-color: whitesmoke;
+}
 .nav-item {
   font-size: 18px;
   font-weight: bold;
@@ -44,15 +47,6 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.inner {
-  overflow: hidden;
-}
-.inner img {
-  transition: all 0.5s ease;
-}
-.inner:hover img {
-  transform: scale(1.5);
-}
 .about-img {
   height: 350px;
   width: 350px;
@@ -79,7 +73,7 @@
 #target {
   font-size: 14px;
 }
-#target-cell {
+#cell {
   padding-top: 20px;
   font-size: 13px;
 }
@@ -94,7 +88,7 @@
   #target {
     font-size: 15px;
   }
-  #target-cell {
+  #cell {
     padding-top: 35px;
     font-size: 15px;
   }
@@ -110,8 +104,35 @@
   #target {
     font-size: 19px;
   }
-  #target-cell {
+  #cell {
     padding-top: 50px;
     font-size: 18px;
   }
+}
+.card{
+transition: all 0.3s;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+.card-size{
+  height: 300px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffc1cc;
+  z-index: 9999;
+}
+
+.loader .spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #ffc1cc;
 }
