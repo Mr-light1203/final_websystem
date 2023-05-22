@@ -130,9 +130,3 @@ transition: all 0.3s;
   background-color: #ffc1cc;
   z-index: 9999;
 }
-
-.loader .spinner-border {
-  width: 3rem;
-  height: 3rem;
-  color: #ffc1cc;
-}
